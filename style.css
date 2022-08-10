@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Poppins";
+  color: #2f2cb7;
+}
+header {
+  position: sticky;
+  background-color: #e8e8fd;
+  padding: 1rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  font-weight: 500;
+}
+nav {
+  display: flex;
+}
+
+nav ul > li {
+  display: inline-block;
+}
+nav a {
+  font-size: 1.1rem;
+  margin: 0 10px;
+  padding: 10px 20px;
+  border-radius: 5rem;
+  background-color: transparent;
+  transition: all 100ms linear;
+}
+nav ul a:hover {
+  color: white;
+  background-color: #2f2cb7;
+}
+.hero {
+  background-image: linear-gradient(to right, #02005c76 0%, #02005c76 100%),
+    url(https://earthsky.org/upl/2018/09/103334071-Page_1_SLS_In_Flight.1910x1000.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  color: white;
+  padding: 25vh 5rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.hero h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.hero h2 {
+  font-weight: 300;
+}
+.hero p {
+  margin-top: 1rem;
+  padding: 0 10rem;
+}
+.products {
+  padding: 0 5rem;
+}
+.products h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+.card {
+  border-radius: 5px;
+  overflow: hidden;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  max-width: 400px;
+  font-family: arial;
+  background-color: #f6f6fd;
+}
+
+.card .details {
+  padding: 1rem;
+}
+.card .details .main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.card button {
+  border: none;
+  padding: 12px;
+  color: white;
+  font-weight: bold;
+  background-color: #2f2cb7;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.card button:hover {
+  background-color: #302f8f;
+}
